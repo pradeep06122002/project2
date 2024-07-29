@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moray diving class</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-transparent pt-5 pb-5">
+        <div class="container-fluid ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="yellow " class="bi bi-award " viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+              </svg>
+          <a class="navbar-brand fs-1 fw-bolder text-warning ms-3 " href="#">moray dive school</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">dive sites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">faq</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                      </svg>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">log in</a>
+              </li>
+            </ulL>
+        </div>
+        </div>
+    </nav>
+    <div class="container sec1 bg-transparent   w-75 mt-5">
+        <h1 class="display-1 fw-bolder text-warning">moray <br> dive school</h1>
+        <p class="fs-2 text-light mt-3 ">Plunge into the Adventure of a Lifetime</p>
+        <button class="btn btn-light pt-3 pb-3 ps-5 pe-5 rounded-pill">book now</button>
+     </div>
+     <div class="container sec2  ">
+
+     </div>
+   
+     <div class="container-fluid sec4 pt-4 pb-4 d-flex flex-column  justify-content-center align-items-center bg-danger text-center ">
+      <h1  data-aos="fade-up" data-aos-duration="2000" class="h1 pb-4 text-warning ">about us</h1>
+      <p data-aos="zoom-in" data-aos-duration="1500" class="p text-light ps-5 pe-5 w-75">I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. Im a great place for you to tell a story and let your users know a little more about you.</p>
+      <button data-aos="fade-down" data-aos-duration="2000" class="btn mt-4 bg-light rounded-pill">read more</button>
+    </div>
+    <div class="container-fluid sec5  ">
+      <h1 class="text-center text-light display-4 fw-bolder">our courses</h1>
+      <div class="container sec6  ">
+        <div class="row cr3 g-3   justify-content-around p-3">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center ">
+            <div class="  c1 w-100 h-100 pt-5   bg-transparent border-0 d-flex justify-content-center align-items-center">
+            <div class="card-body mt-5 pt-5 pb-5">
+                <h5 data-aos="fade-up" data-aos-duration="2000" class="card-title text-light ps-5 pb-3 fs-3">intro to scuba</h5>
+                <p data-aos="zoom-in" data-aos-duration="1500" class="card-text text-light  ps-5 pb-3 pe-5 fs-5">i'm a paragraph. Click here to add your own text and edit me. Let your users get to know you</p>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#" class="btn btn-light rounded-pill ms-5 mt-5">book now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4  d-flex justify-content-center align-items-center ">
+            <div class="  c2 w-100 h-100 pt-5 bg-transparent border-0 d-flex justify-content-center align-items-center">
+            <div class="card-body mt-5 pt-5 pb-5">
+                <h5 data-aos="fade-up" data-aos-duration="2000" class="card-title text-light ps-5 pb-3 fs-3">intro to scuba</h5>
+                <p data-aos="zoom-in" data-aos-duration="1500" class="card-text text-light  ps-5 pb-3 pe-5 fs-5">i'm a paragraph. Click here to add your own text and edit me. Let your users get to know you</p>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#" class="btn btn-light rounded-pill ms-5 mt-5">book now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center ">
+            <div class="  c3 w-100 h-100 pt-5 pb-5 bg-transparent border-0 d-flex justify-content-center align-items-center">
+            <div class="card-body mt-5 pt-5">
+                <h5 data-aos="fade-up" data-aos-duration="2000" class="card-title text-light ps-5 pb-3 fs-3">intro to scuba</h5>
+                <p data-aos="zoom-in" data-aos-duration="1500" class="card-text text-light  ps-5 pb-3 pe-5 fs-5">i'm a paragraph. Click here to add your own text and edit me. Let your users get to know you</p>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#" class="btn btn-light rounded-pill ms-5  mt-5">book now</a>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid sec7 d-flex justify-content-center align-items-center">
+      <p class="h2 text-center px-5 fw-bolder para">
+        “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”
+        Corey Vega</p>
+
+    </div>
+    <div class="container-fluid sec8  d-flex flex-column justify-content-center align-items-center ">
+      <h1 data-aos="fade-up" data-aos-duration="3000" class="text-center text-warning">Step Up, Help Us Clean <br> The Oceans</h1>
+      <button data-aos="fade-down" data-aos-duration="1500" class="btn mt-4 bg-light rounded-pill">donate now</button>
+
+    </div>
+    <div class="container-fluid sec9 pt-5 pb-5 ">
+      <h1 class="text-warning text-center pt-5">certified by</h1>
+      <div class="row h-75 g-3  align-items-center  p-3 ">
+        <div class="col-12 col-md-6 justify-content-center ">
+          <img data-aos="flip-up" data-aos-duration="3000" class="mx-auto d-block" src="https://static.wixstatic.com/media/fc7570_f6c7cf2034be45e5bb5d882026a1c621~mv2.png/v1/fill/w_260,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fc7570_f6c7cf2034be45e5bb5d882026a1c621~mv2.png" alt="">
+
+        </div>
+        <div class="col-12 col-md-6">
+          <img data-aos="flip-down" data-aos-duration="3000"  class="mx-auto d-block"  src="https://static.wixstatic.com/media/fc7570_afb9be5485a147a483e41b9dc1834a56~mv2.png/v1/fill/w_260,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fc7570_afb9be5485a147a483e41b9dc1834a56~mv2.png" alt="">
+          
+        </div>
+
+      </div>
+
+    </div>
+      <iframe src="https://www.google.com/maps/embed" frameborder="0" class="w-100  sec11"></iframe>
+    <div class="container-fluid sec10 bg-light ">
+      <div class="container ps-5">
+        <h1 class="px-4 display-4 fw-bold  ">contact us</h1>
+      </div>
+      <div class="row justify-content-center h-75">
+        <div class="col-12 col-md-5  pe-5 ">
+          
+        <h4 class="fs-5 pt-5 pb-3">500 Terry Francine Street San Francisco, CA 94158</h4>
+        <h4 class="fs-5 pt-3 pb-3">123-456-7890</h4>
+        <h4 class="fs-5 pt-3 pb-3">123-456-7890</h4>
+        <ul class="list-unstyled d-flex">
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook me-2" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg></li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram ms-2 me-2" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter ms-2 me-2" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+            </svg>
+          </li>
+        </ul>
+
+        </div>
+        <div class="col-12 col-md-5  ps-5 pe-5 pb-5 d-flex justify-content-center align-items-center">
+          <form class="row ">
+            <div class="col-6">
+              <label for="validationDefault01" class="form-label ">First name</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-dark border-start-0 border-end-0 border-bottom-3 rounded-0" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-6">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 rounded-0" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-6">
+              <label for="validationDefault01" class="form-label pt-3">email*</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-dark border-start-0 border-end-0 border-bottom-3 rounded-0" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-6">
+              <label for="validationDefault02" class="form-label pt-3">phone*</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 rounded-0" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-6">
+              <label for="validationDefault01" class="form-label pt-3 ">type your mwssage here...</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-dark border-start-0 border-end-0 border-bottom-3 rounded-0 mt-5" id="validationDefault01" value="" required>
+            </div>
+            
+          </form>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="container-fluid sec12 ">
+      <div class="row   h-50 ">
+        <div class="col  p-5 ">
+          <h1 class="fs-2 fw-bolder text-light ">Download Our Mobile App</h1>
+          <p class="text-light fw-bold mt-3">Download the Spaces by Wix app and join Moray Dive School to easily stay updated on the go.</p>
+
+        </div>
+        <div class="col  p-5">
+          <div class="row">
+            <div class="col">
+              <ul class="list-unstyled">
+                <label for="validationDefault01" class="form-label text-light ">country</label>
+              <input type="text" class="form-control bg-transparent  border-top-0 border-light border-start-0 border-end-0 border-bottom-3 rounded-0" id="validationDefault01" value="" required placeholder="+91">
+              </ul>
+             </div>
+             <div class="col">
+              <ul class="list-unstyled"> 
+                <label for="validationDefault01" class="form-label text-light ">phone number</label>
+              <input type="text" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 rounded-0  border-light" id="validationDefault01" value="" required placeholder="add your number">
+               
+              </ul>
+             </div>
+          </div>
+          <div class="col">
+            <button class="rounded-pill mt-2 border-0 p-2 text-primary fs-5 fw-bold">send</button>
+           </div>
+
+        </div>
+        <div class="col d-flex">
+          <div class="container w-50  h-100 d-flex justify-content-center align-items-center">
+            <img src="./assets/download.svg" alt="">
+          </div>
+          <div class="container w-50  h-100 d-flex justify-content-center  align-items-center flex-column">
+            <img src="./assets/Google.webp" alt="">
+            <img src="./assets/apple.webp" alt="">
+          </div>
+        </div>
+
+      </div>
+      
+ 
+
+    </div>
+    <div class="container-fluid sec13  d-flex  justify-content-center align-items-center">
+      <a href="" class="text-light">accessbility</a>
+      <a href="" class="text-light">terms & conditions </a>
+      <a href="" class="text-light">privacy policy</a>
+      <a href="" class="text-light">shipping policy</a>
+      <a href="" class="text-light">refund policy</a>
+  
+
+</div>
+<div class="container-fluid sec14 d-flex justify-content-center align-items-center ">
+  <p class="lead text-light text-center"> 2035 by Moray Dive School. Powered and secured by Wix</p>
+</div>
+<div class="container sec15 d-flex justify-content-center align-items-center border-3 bg-warning w-25">
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+  </svg>
+  <h1>let's chat</h1>
+</div>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

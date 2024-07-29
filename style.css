@@ -1,0 +1,138 @@
+body{
+    background-image: url("https://images.pexels.com/photos/3098971/pexels-photo-3098971.jpeg?auto=compress&cs=tinysrgb&w=2400");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+      
+  }
+  .nav-link{
+      color: aliceblue;
+  }
+  .nav-link:hover, .active{
+      color: yellow !important;
+  }
+  .sec1{
+      height: 50vh;
+  }
+  .sec2{
+    height: 40vh;
+  }
+  .sec3{
+    height: 70vh;
+
+    
+    
+  }
+  
+    
+.sec4
+{
+    height: 75vh;
+       
+    background-image: url("https://images.pexels.com/photos/4609264/pexels-photo-4609264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec5{
+    height:fit-content;
+    background-color: #152040 !important;
+}
+.sec6{
+    height:fit-content;
+}
+
+
+.c1{
+    height: 80vh !important;
+    background-image: url("https://static.wixstatic.com/media/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_401,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c2{
+    height: 80vh !important;
+
+    background-image: url("https://static.wixstatic.com/media/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg/v1/fill/w_402,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c3{
+    height: 80vh !important;
+
+    background-image: url("https://static.wixstatic.com/media/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg/v1/fill/w_402,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cr3{
+    height:fit-content;
+}
+.sec7{
+    height: 60vh;
+    background-color: #c5c7cf;
+}
+
+.para{
+    color: #152040;
+}
+.sec8{
+    height: 90vh;
+    
+    background-image: url("https://images.pexels.com/photos/5967799/pexels-photo-5967799.jpeg?auto=compress&cs=tinysrgb&w=3000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    
+}
+.sec9{
+    height: fit-content;
+    background-color: #152040;
+}
+.sec10{
+    height: 80vh;
+    text-transform: capitalize;
+}
+.form-control{
+    border-color: black;
+}
+.sec10 button{
+    background-color: rgb(1, 1, 66);
+}
+.sec11{
+    height: 65vh;
+}
+.sec12{
+    height: fit-content;
+    background-color: rgb(1, 1, 66);
+
+}
+.sec12 .btn{
+   
+}
+.form-control::placeholder{
+    color: azure;
+}
+.sec13{
+    height: 20vh;
+    gap: 30px;
+    background-color: rgb(1, 1, 66);
+
+}
+.sec14{
+    height: 5vh;
+    background-color: rgb(1, 1, 66);
+
+}
+.sec15{
+    position: fixed;
+    right:30px;
+    bottom:0px;
+    
+    gap: 10px;
+    
+
+}
